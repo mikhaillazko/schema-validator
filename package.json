@@ -1,0 +1,62 @@
+{
+  "name": "schema-validator",
+  "version": "1.0.0",
+  "description": "Lib for validate schema of object",
+  "module": "dist/schema-validator.esm.js",
+  "browser": "dist/schema-validator.umd.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikhaillazko/schema-validator.git"
+  },
+  "keywords": [
+    "validator",
+    "validation",
+    "validate",
+    "schema",
+    "json",
+    "error"
+  ],
+  "author": "Mike Lazko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikhaillazko/schema-validator/issues"
+  },
+  "homepage": "https://github.com/mikhaillazko/schema-validator#readme",
+  "engines": {
+    "node": ">= 8"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "babel-jest": "^27.0.6",
+    "babel-plugin-lodash": "^3.3.4",
+    "jest": "^27.0.6",
+    "rollup": "^2.56.2",
+    "rollup-plugin-optimize-lodash-imports": "^1.0.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ]
+}
