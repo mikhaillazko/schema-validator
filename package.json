@@ -1,6 +1,6 @@
 {
   "name": "@lazko/schema-validator",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Lib for validate schema of object",
   "main": "index.js",
   "module": "dist/schema-validator.esm.js",
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/mikhaillazko/schema-validator#readme",
   "engines": {
-    "node": ">= 8"
+    "node": ">= 12"
   },
   "dependencies": {
     "@babel/runtime": "^7.18.3",
