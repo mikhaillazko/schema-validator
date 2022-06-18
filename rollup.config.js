@@ -10,7 +10,7 @@ export default [
     {
         input: entrypoint,
         output: {
-            name: 'schema-validator',
+            name: pkg.name,
             file: pkg.browser,
             format: 'umd',
             sourcemap: true
@@ -26,8 +26,8 @@ export default [
         input: entrypoint,
         external: ['lodash', 'lodash/function'],
         output: {
-            name: 'schema-validator',
-            file: pkg.module,
+            name: pkg.name,
+            file: pkg.main,
             format: 'es'
         }
     }
