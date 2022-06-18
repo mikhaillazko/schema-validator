@@ -19,6 +19,6 @@ jobs:
       - name: Run Tests
         run: npm test
       - name: Publish Package to NPM Registry
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_SECRET}}
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
