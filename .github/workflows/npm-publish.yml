@@ -18,10 +18,10 @@ jobs:
         run: npm install
       - name: Run Tests
         run: npm test
+      - name: Run Build
+        run: npm build
       - name: Publish Package to NPM Registry
         uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
           access: "public"
-          dry-run: true
-
