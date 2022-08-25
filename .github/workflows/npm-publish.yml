@@ -19,7 +19,7 @@ jobs:
       - name: Run Tests
         run: npm test
       - name: Run Build
-        run: npm build
+        run: npm run build
       - name: Publish Package to NPM Registry
         uses: JS-DevTools/npm-publish@v1
         with:
