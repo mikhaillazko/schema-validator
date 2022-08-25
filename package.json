@@ -49,8 +49,6 @@
     "rollup-plugin-terser": "^7.0.2"
   },
   "files": [
-    "dist/index.js",
-    "dist/schema-validator.esm.js",
     "dist/schema-validator.umd.js"
   ]
 }
