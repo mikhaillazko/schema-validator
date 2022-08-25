@@ -2,9 +2,8 @@
   "name": "@lazko/schema-validator",
   "version": "0.9.5",
   "description": "Lib for validate schema of object",
-  "main": "dist/schema-validator.umd.js",
+  "main": "dist/schema-validator.esm.js",
   "browser": "dist/schema-validator.umd.js",
-  "type": "module",
   "scripts": {
     "test": "jest",
     "build": "rollup -c"
@@ -50,6 +49,7 @@
     "rollup-plugin-terser": "^7.0.2"
   },
   "files": [
+    "dist/schema-validator.esm.js",
     "dist/schema-validator.umd.js"
   ]
 }

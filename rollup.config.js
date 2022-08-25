@@ -14,7 +14,14 @@ export default [
                 name: pkg.name,
                 file: pkg.browser,
                 format: 'umd',
+                sourcemap: true
             },
+            {
+                name: pkg.name,
+                file: pkg.main,
+                format: 'esm',
+                sourcemap: true
+            }
         ],
         plugins: [
             resolve(),
