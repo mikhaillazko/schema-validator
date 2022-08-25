@@ -7,6 +7,8 @@ Library for validate schema and properties of js object
 ### Example of usage:
 
 ```javascript
+import { required, dependOn, maxLength, minLength, itemRules, createValidator } from '@lazko/schema-validator'
+
 // Schema rules declaration
 const answerRule = {
     id: [required()],
