@@ -14,14 +14,7 @@ export default [
                 name: pkg.name,
                 file: pkg.browser,
                 format: 'umd',
-                sourcemap: true
             },
-            {
-                name: pkg.name,
-                file: pkg.module,
-                format: 'esm',
-                sourcemap: true
-            }
         ],
         plugins: [
             resolve(),
@@ -30,13 +23,4 @@ export default [
             terser()
         ]
     },
-    {
-        input: entrypoint,
-        external: ['lodash', 'lodash/function'],
-        output: {
-            name: pkg.name,
-            file: pkg.main,
-            format: 'es'
-        }
-    }
 ]

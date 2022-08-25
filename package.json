@@ -1,9 +1,8 @@
 {
   "name": "@lazko/schema-validator",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Lib for validate schema of object",
-  "main": "dist/index.js",
-  "module": "dist/schema-validator.esm.js",
+  "main": "dist/schema-validator.umd.js",
   "browser": "dist/schema-validator.umd.js",
   "scripts": {
     "test": "jest",
