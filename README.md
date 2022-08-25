@@ -1,7 +1,10 @@
 # schema-validator
-Library for validate schema of object
+Library for validate schema and properties of js object
 
-Example of usage:
+### Install 
+`$ npm install @lazko/schema-validator`
+
+### Example of usage:
 
 ```javascript
 // Schema rules declaration
