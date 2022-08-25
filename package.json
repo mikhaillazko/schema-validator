@@ -4,6 +4,7 @@
   "description": "Lib for validate schema of object",
   "main": "dist/schema-validator.umd.js",
   "browser": "dist/schema-validator.umd.js",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "build": "rollup -c"
